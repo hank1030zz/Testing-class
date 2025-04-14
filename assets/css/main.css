@@ -29,8 +29,8 @@ h1 {
 
 .food-map {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-between;  /* 使三個框橫向排列 */
+    gap: 20px;  /* 每個框之間的間距 */
 }
 
 .food-item {
@@ -38,11 +38,12 @@ h1 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
+    width: 30%;  /* 每個框佔據總寬度的 30% */
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 400px;  /* 給每個框設定高度 */
 }
 
 .food-item h2 {
